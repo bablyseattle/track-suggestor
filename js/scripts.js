@@ -7,7 +7,7 @@ $(document).ready(function(){
     var select4  = $("input:radio[name=ques4]:checked").val();
     var select5  = $("input:radio[name=ques5]:checked").val();
     $("#nameInput").text(nameInput);
-    alert(nameInput);
+    $("#quiz").slideToggle();
     if(select1 === "yes" && select2 === "yes"){
       $('.result').hide();
       $('.must').show();
@@ -38,4 +38,8 @@ $(document).ready(function(){
     }
     (event).preventDefault();
   });
+  $("#btnback").click(function(event){
+    $("#quiz").slideToggle();
+    (event).preventDefault();
+    });
 });

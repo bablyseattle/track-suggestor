@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: #f44b42;
   margin: 30px;
 }
 .result {
@@ -9,15 +9,19 @@ h1 {
   text-align: center;
 }
 body {
-  background-color: #d3e5c0;
+  background-color: #c6d3c6;
 }
 .jumbotron {
-  background-color: #4bd17a;
+  background-image: url("http://www.designshock.com/wp-content/uploads/2014/08/1_thumb1.jpg");
 }
 .jumbotron p {
   text-transform: capitalize;
   text-align: center;
   margin-top: 20px;
+  color: white;
+  text-shadow: 0 0 2px #ed6e07;
+  font-weight: bold;
+  font-size: 25px;
 }
 img {
   float: right;
@@ -25,4 +29,14 @@ img {
 .result {
   width: 100%;
   padding: 20px;
+}
+p {
+  font-size: 20px;
+}
+.must {
+  font-style: italic;
+}
+.must .btn {
+  float: right;
+  width: 100px;
 }

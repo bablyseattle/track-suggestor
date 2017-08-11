@@ -13,119 +13,113 @@
       <h1>Track Suggestor Quiz</h1>
       <h2>decide which programming language to learn with this interactive quiz</h2>
       <form id="quiz">
-        <p>Have you taken intro classes?</p>
+        <div class="form-group">
+          <label for="name">What's your name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <p class="questions">Do you like Front-end/Design or Backend?</p>
         <div class="radio">
-          <label>
-            <input type="radio" name="intro" value="yes" checked>
-            Yes,Show me the quiz.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="intro" value="no1">
-            No.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="intro" value="no2">
-            No,Show me quiz anyway.
-          </label>
-        </div>
-        <button class="btn btn-default" type="submit">Take Quiz !!</button>
-      </form>
-        <div id="decide">
-          <p class="questions">Do you like Front-end/Design or Backend?</p>
-          <div class="radio">
-          <label>
-            <input type="radio" name="ques1" value="front" checked>
-            Front-end
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques1" value="back">
-            Back-end
-          </label>
-        </div>
-        <p class="questions">Do you want to build Android apps?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques2" value="yes" checked>
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques2" value="no">
-            No
-          </label>
-        </div>
-        <p class="questions">Do you  want to build web app?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques3" value="yes" checked>
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques3" value="no">
-            No
-          </label>
-        </div>
-        <p class="questions">Do you want to work with WordPress ?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques4" value="yes" checked>
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques4" value="no">
-            No
-          </label>
-        </div>
-        <p class="questions">Do you want to build windows apps?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques5" value="yes" checked>
-            Yes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="ques5" value="no">
-            No
-          </label>
-        </div>
-        <button class="btn btn-default" type="submit">Button</button>
+        <label>
+          <input type="radio" name="ques1" value="front" checked>
+          Front-end
+        </label>
       </div>
-      <div class="answer">
-        <div id ="java" class="result">
-          <h1>Learn Java/Android</h1>
-          <p>If you’d rather develop Android apps (which include apps for devices like the Kindle Fire, not just smartphones), then Java is the language to learn. Native Android apps are all coded in Java.
-          Java used to be the standard for learning to code in computer science courses (but has since been replaced by Python, which I’ll talk about further down), which means it’s a good language to tackle when you’re starting out programming. That said, it’s also incredibly powerful and has tons of advanced capabilities.</p>
-        </div>
-        <div id ="php" class="result">
-          <h1>Learn PHP/Drupal</h1>
-          <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. It is perhaps best known for it's use in content management systems like Wordpress, Drupal, and Joomla. But the versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, or if you like the idea of building out small sites for brands, businesses, and organizations - In any of these cases, PHP would be a great way to go</p>
-        </div>
-        <div id ="ruby" class="result">
-          <h1>Learn Ruby/Rails</h1>
-          <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
-        </div>
-        <div id ="css" class="result">
-          <h1>Learn CSS/Design</h1>
-          <p>HTML is a well-accepted format for internal publishing at most companies. From project plans to schedules to checklists and more, you can easily export or post HTML content in many ways and from many tools.
-          Sure, HTML supports basic text formatting, but CSS gives you a lot more to work with visually: page layout, typography, animation, effects, and more. With a little custom CSS, you can make mundane messages look marvelous, stark business reports look stunning, and your HTML emails look exceptional.</p>
-        </div>
-        <div id ="dotnet" class="result">
-          <h1>Learn C#/.NET</h1>
-          <p>C# is most commonly used for building applications that run on Windows. It’s used for web development (with Microsoft’s .NET framework), game development, and general Windows development. It’s now possible to write iOS and Android apps with C#, too, using the Xamarin platform</p>
-        </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques1" value="back">
+          Back-end
+        </label>
       </div>
+      <p class="questions">Do you want to build Android apps?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques2" value="yes" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques2" value="no">
+          No
+        </label>
+      </div>
+      <p class="questions">Do you  want to build web app?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques3" value="yes" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques3" value="no">
+          No
+        </label>
+      </div>
+      <p class="questions">Do you want to work with WordPress ?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques4" value="yes" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques4" value="no">
+          No
+        </label>
+      </div>
+      <p class="questions">Do you want to build windows apps?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques5" value="yes" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="ques5" value="no">
+          No
+        </label>
+      </div>
+      <button class="btn btn-danger" type="submit">Submit</button>
+    </form>
+    <div class="answer">
+      <div id ="intro" class="result">
+        <h3>Hi <span id="nameInput"></span><h3>
+        <h4>You should go ahead with:</h4>
+        <h1>Intro to Programming</h1>
+        <p>If you’d rather develop Android apps (which include apps for devices like the Kindle Fire, not just smartphones), then Java is the language to learn. Native Android apps are all coded in Java.
+        Java used to be the standard for learning to code in computer science courses (but has since been replaced by Python, which I’ll talk about further down), which means it’s a good language to tackle when you’re starting out programming. That said, it’s also incredibly powerful and has tons of advanced capabilities.</p>
+      </div>
+      <div id ="js" class="result">
+        <h1>Java Script</h1>
+        <p>If you’d rather develop Android apps (which include apps for devices like the Kindle Fire, not just smartphones), then Java is the language to learn. Native Android apps are all coded in Java.
+        Java used to be the standard for learning to code in computer science courses (but has since been replaced by Python, which I’ll talk about further down), which means it’s a good language to tackle when you’re starting out programming. That said, it’s also incredibly powerful and has tons of advanced capabilities.</p>
+      </div>
+      <div id ="java" class="result">
+        <h1>Java/Android</h1>
+        <p>If you’d rather develop Android apps (which include apps for devices like the Kindle Fire, not just smartphones), then Java is the language to learn. Native Android apps are all coded in Java.
+        Java used to be the standard for learning to code in computer science courses (but has since been replaced by Python, which I’ll talk about further down), which means it’s a good language to tackle when you’re starting out programming. That said, it’s also incredibly powerful and has tons of advanced capabilities.</p>
+      </div>
+      <div id ="php" class="result">
+        <h1>PHP/Drupal</h1>
+        <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. It is perhaps best known for it's use in content management systems like Wordpress, Drupal, and Joomla. But the versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, or if you like the idea of building out small sites for brands, businesses, and organizations - In any of these cases, PHP would be a great way to go</p>
+      </div>
+      <div id ="ruby" class="result">
+        <h1>Ruby/Rails</h1>
+        <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+      </div>
+      <div id ="css" class="result">
+        <h1>CSS/Design</h1>
+        <p>HTML is a well-accepted format for internal publishing at most companies. From project plans to schedules to checklists and more, you can easily export or post HTML content in many ways and from many tools.
+        Sure, HTML supports basic text formatting, but CSS gives you a lot more to work with visually: page layout, typography, animation, effects, and more. With a little custom CSS, you can make mundane messages look marvelous, stark business reports look stunning, and your HTML emails look exceptional.</p>
+      </div>
+      <div id ="dotnet" class="result">
+        <h1>C#/.NET</h1>
+        <p>C# is most commonly used for building applications that run on Windows. It’s used for web development (with Microsoft’s .NET framework), game development, and general Windows development. It’s now possible to write iOS and Android apps with C#, too, using the Xamarin platform</p>
+      </div>
+    </div>
     </div>
   </body>
 </html>

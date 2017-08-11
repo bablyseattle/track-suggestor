@@ -8,8 +8,14 @@ h1 {
 h1 {
   text-align: center;
 }
-body {
-  background-color: #c6d3c6;
+#quiz {
+  background-image: url("http://blog.builtinperl.com/uploads/covers/4E4926D6-0628-11E6-8654-CE024887B159.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+  text-shadow: 1px 1px 1px #ce4621;
+  /*background-color: #c6d3c6;*/
 }
 .jumbotron {
   background-image: url("http://www.designshock.com/wp-content/uploads/2014/08/1_thumb1.jpg");
@@ -35,8 +41,27 @@ p {
 }
 .must {
   font-style: italic;
+  font-size: 50px;
+  color: #4c4444;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #685757;
 }
 .must .btn {
   float: right;
   width: 100px;
+}
+body {
+  background-color: transparent;
+}
+#name {
+  width: 50%;
+}
+body {
+  background-image: url("http://www.coloringyard.com/wp-content/uploads/2016/08/pastels-background-image-wallpaper-or-texture-free-for-any-web-page-nice-colour-backgroun-d-for-a-webpage-1024x819.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.answer {
+  background-color: #fff7f7;
+  padding: 30px;
 }

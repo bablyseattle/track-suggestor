@@ -40,6 +40,7 @@ $(document).ready(function(){
   });
   $("#btnback").click(function(event){
     $("#quiz").slideToggle();
+    $('.result').hide();
     (event).preventDefault();
     });
 });

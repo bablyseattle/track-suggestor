@@ -42,5 +42,5 @@ $(document).ready(function(){
     $("#quiz").slideToggle();
     $('.result').hide();
     (event).preventDefault();
-    });
+  });
 });

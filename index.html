@@ -10,8 +10,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Track Suggestor Quiz</h1>
-      <h2>decide which programming language to learn with this interactive quiz</h2>
+      <div class="jumbotron">
+        <h1>Track Suggestor Quiz</h1>
+        <p>decide which programming language to learn with this interactive quiz</p>
+      </div>
       <form id="quiz">
         <div class="form-group">
           <label for="name">What's your name</label>
@@ -20,13 +22,13 @@
         <p class="questions">Do you like design</p>
         <div class="radio">
         <label>
-          <input type="radio" name="ques1" value="front" checked>
+          <input type="radio" name="ques1" value="yes" checked>
           Yes
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="ques1" value="back">
+          <input type="radio" name="ques1" value="no">
           No
         </label>
       </div>
@@ -87,7 +89,7 @@
     <div class="answer">
       <div id ="intro" class="result must">
         <h3>Hi <span id="nameInput"> ,</span><h3>
-        <h4>You should go ahead with:</h4>
+        <h4>You should learn :</h4>
       </div>
       <div id ="java" class="result">
         <h1>Java/Android</h1>

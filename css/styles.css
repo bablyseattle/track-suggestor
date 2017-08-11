@@ -1,6 +1,28 @@
 h1 {
   color: blue;
+  margin: 30px;
 }
 .result {
   display: none;
+}
+h1 {
+  text-align: center;
+}
+body {
+  background-color: #d3e5c0;
+}
+.jumbotron {
+  background-color: #4bd17a;
+}
+.jumbotron p {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 20px;
+}
+img {
+  float: right;
+}
+.result {
+  width: 100%;
+  padding: 20px;
 }

@@ -8,21 +8,21 @@ $(document).ready(function(){
     var select5  = $("input:radio[name=ques5]:checked").val();
     $("#nameInput").text(nameInput);
     alert(nameInput);
-    if(select1 === "front" && select2 === "yes"){
+    if(select1 === "yes" && select2 === "yes"){
       $('.result').hide();
       $('.must').show();
       $('#css').show();
       $('#java').show();
       $('#dotnet').show();
       }
-    else if(select1 === "front" && select2 === "no" ){
+    else if(select1 === "yes" && select2 === "no"){
       $('.result').hide();
       $('.must').show();
       $('#css').show();
       $('#dotnet').show();
       $('#ruby').show();
       }
-    else if(select1 === "back" && select2 === "yes" ){
+    else if(select1 === "no" && select2 === "yes"){
       $('.result').hide();
       $('.must').show();
       $('#java').show();
